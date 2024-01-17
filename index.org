@@ -5,3 +5,5 @@
 #+PROPERTY: header-args    :exports none
 
 
+
+[[https://financial-education.github.io/term_structure_interest_rates/][See this presentation for a detailed look at the term structure of interest rates.]]
