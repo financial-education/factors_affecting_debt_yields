@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-01-17 Wed 00:09 -->
+<!-- 2024-01-17 Wed 16:46 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Factors Affecting Debt Security Yields</title>
@@ -16,17 +16,138 @@
 <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
 <style>pre.src{background:#343131;color:white;} </style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="content" class="content">
 <h1 class="title">Factors Affecting Debt Security Yields</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org858fe56">1. Credit Risk</a>
+<ul>
+<li><a href="#org39d5939">1.1. NRSROs</a></li>
+</ul>
+</li>
+<li><a href="#org9f79d43">2. Tax Status</a></li>
+<li><a href="#orgfe78968">3. Time to Maturity</a></li>
+</ul>
+</div>
+</div>
+<p>
+What causes debt securities to have different yields?  There are 4 general causes:
+</p>
+
+<ol class="org-ol">
+<li>Credit risk</li>
+<li>Tax Status</li>
+<li>Liquidity</li>
+<li>Time left to maturity</li>
+</ol>
+
+
+<div id="outline-container-org858fe56" class="outline-2">
+<h2 id="org858fe56"><span class="section-number-2">1.</span> Credit Risk</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Credit risk measures the probability that the issuer may default on the bond. Clearly, a higher risk of default will require a higher yield by the bond buyer.
+</p>
+</div>
+
+<div id="outline-container-org39d5939" class="outline-3">
+<h3 id="org39d5939"><span class="section-number-3">1.1.</span> NRSROs</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+When a bond is going to be sold to the public (as opposed to a private placement) its credit risk must be rated by a Nationally Recognizes Statistical Rating Organization.  These are informally known as <i>credit ratings agencies</i>.  Note, NRSROs <b><b>only</b></b> evaluate the bond's credit risk, and not its interest rate or liquidity risk.  Different NRSROs have different rating scales, however generally they range from something like AAA to D. 
+</p>
+
+<p>
+There are a couple of known issues when it comes to credit ratings:
+</p>
+
+<ol class="org-ol">
+<li>The bond issuer pays the ratings agency, so there is a conflict of interest and pressure to give high ratings.</li>
+<li>The track record of credit ratings is fairly poor.  During the 2008 crisis some bonds rated AAA defaulted.</li>
+</ol>
+
+<p>
+A fairly accurate representation of these issues is shown in the movie <i>The Big Short</i>.
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kj2W_EqKzuw?si=3QKfE8kFM6KYKDNN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<p>
+Despite a lackluster track record, credit ratings are meaningful because many funds and investors cannot invest in anything below <i>investment grade</i> securities.  The investment grade threshold is Baa by Moody's and BBB by S&amp;P.  Bonds with ratings below these thresholds are known as <i>high-yield</i> or <i>junk</i> bonds and your typical bond mutual fund cannot invest in them.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9f79d43" class="outline-2">
+<h2 id="org9f79d43"><span class="section-number-2">2.</span> Tax Status</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Investors care about after-tax and <b><b>not</b></b> before-tax yield&#x2014;there is no utility found in paying taxes.  Therefore when investors compare debt investments, they only compare the after-tax yield, which may be calcualted as:
+</p>
+
+<p>
+\[y_{at} = t_{bt} (1 - \tau)\]
+</p>
+
+<p>
+where 
+</p>
+</div>
+</div>
+
+
+
+
+
+<div id="outline-container-orgfe78968" class="outline-2">
+<h2 id="orgfe78968"><span class="section-number-2">3.</span> Time to Maturity</h2>
+<div class="outline-text-2" id="text-3">
 <p>
 <a href="https://financial-education.github.io/term_structure_interest_rates/">See this presentation for a detailed look at the term structure of interest rates.</a>
 </p>
 </div>
+</div>
+</div>
 <div id="postamble" class="status">
 <p class="author">Author: Matt Brigida, Ph.D.</p>
-<p class="date">Created: 2024-01-17 Wed 00:09</p>
+<p class="date">Created: 2024-01-17 Wed 16:46</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

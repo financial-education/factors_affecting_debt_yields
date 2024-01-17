@@ -4,6 +4,47 @@
 #+HTML_HEAD: <style>pre.src{background:#343131;color:white;} </style>
 #+PROPERTY: header-args    :exports none
 
+What causes debt securities to have different yields?  There are 4 general causes:
 
+1.  Credit risk
+2.  Tax Status
+3.  Liquidity
+4.  Time left to maturity
+
+
+** Credit Risk
+
+Credit risk measures the probability that the issuer may default on the bond. Clearly, a higher risk of default will require a higher yield by the bond buyer.
+
+*** NRSROs
+
+When a bond is going to be sold to the public (as opposed to a private placement) its credit risk must be rated by a Nationally Recognizes Statistical Rating Organization.  These are informally known as /credit ratings agencies/.  Note, NRSROs **only** evaluate the bond's credit risk, and not its interest rate or liquidity risk.  Different NRSROs have different rating scales, however generally they range from something like AAA to D. 
+
+There are a couple of known issues when it comes to credit ratings:
+
+1. The bond issuer pays the ratings agency, so there is a conflict of interest and pressure to give high ratings.
+2. The track record of credit ratings is fairly poor.  During the 2008 crisis some bonds rated AAA defaulted.
+
+A fairly accurate representation of these issues is shown in the movie /The Big Short/.
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kj2W_EqKzuw?si=3QKfE8kFM6KYKDNN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+Despite a lackluster track record, credit ratings are meaningful because many funds and investors cannot invest in anything below /investment grade/ securities.  The investment grade threshold is Baa by Moody's and BBB by S&P.  Bonds with ratings below these thresholds are known as /high-yield/ or /junk/ bonds and your typical bond mutual fund cannot invest in them.
+
+** Tax Status
+
+Investors care about after-tax and **not** before-tax yield---there is no utility found in paying taxes.  Therefore when investors compare debt investments, they only compare the after-tax yield, which may be calcualted as:
+
+$$y_{at} = t_{bt} (1 - \tau)$$
+
+where 
+
+
+
+
+
+** Time to Maturity
 
 [[https://financial-education.github.io/term_structure_interest_rates/][See this presentation for a detailed look at the term structure of interest rates.]]
