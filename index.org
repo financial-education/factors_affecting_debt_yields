@@ -37,12 +37,27 @@ Despite a lackluster track record, credit ratings are meaningful because many fu
 
 Investors care about after-tax and **not** before-tax yield---there is no utility found in paying taxes.  Therefore when investors compare debt investments, they only compare the after-tax yield, which may be calcualted as:
 
-$$y_{at} = t_{bt} (1 - \tau)$$
+$$y_{at} = y_{bt} (1 - \tau)$$
 
-where 
+where:
 
+- $y_{at}$ is the after-tax yield
+- $y_{bt}$ is the before-tax yield
+- $\tau$ is the investor's marginal (total) tax rate.
 
+So, for example, if a bond has a yield of 10%, and your tax rate is 30%, the after tax yield is $0.10(1-0.03) = 0.07$ or 7%.
 
+You can also /gross-up/ an after tax yield to determine the before tax yield you would have to offer investors such that your bond is attractive.
+
+$$y_{bt} = \frac{y_{at}}{(1 - \tau)}$$
+
+*** Tax Rates of Various Bond Types
+
+First, note when calculating your tax rate we include all relevant taxes---local, state, and federal. Your tax rates can vary substantially because:
+
+1.  [[https://www.sec.gov/munied][Municipal bonds]] interest /can be/ exempt from local, state and federal taxes.
+2.  Treasury bonds interest are exempt from state and local taxes.
+3.  Corporate bond interest is usually always taxable. 
 
 
 ** Time to Maturity

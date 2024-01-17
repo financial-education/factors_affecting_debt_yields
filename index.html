@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-01-17 Wed 16:46 -->
+<!-- 2024-01-17 Wed 17:58 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Factors Affecting Debt Security Yields</title>
@@ -56,13 +56,17 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org858fe56">1. Credit Risk</a>
+<li><a href="#org89ced3e">1. Credit Risk</a>
 <ul>
-<li><a href="#org39d5939">1.1. NRSROs</a></li>
+<li><a href="#org1ab5fbc">1.1. NRSROs</a></li>
 </ul>
 </li>
-<li><a href="#org9f79d43">2. Tax Status</a></li>
-<li><a href="#orgfe78968">3. Time to Maturity</a></li>
+<li><a href="#org718a85c">2. Tax Status</a>
+<ul>
+<li><a href="#org9017635">2.1. Tax Rates of Various Bond Types</a></li>
+</ul>
+</li>
+<li><a href="#orgf905092">3. Time to Maturity</a></li>
 </ul>
 </div>
 </div>
@@ -78,16 +82,16 @@ What causes debt securities to have different yields?  There are 4 general cause
 </ol>
 
 
-<div id="outline-container-org858fe56" class="outline-2">
-<h2 id="org858fe56"><span class="section-number-2">1.</span> Credit Risk</h2>
+<div id="outline-container-org89ced3e" class="outline-2">
+<h2 id="org89ced3e"><span class="section-number-2">1.</span> Credit Risk</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Credit risk measures the probability that the issuer may default on the bond. Clearly, a higher risk of default will require a higher yield by the bond buyer.
 </p>
 </div>
 
-<div id="outline-container-org39d5939" class="outline-3">
-<h3 id="org39d5939"><span class="section-number-3">1.1.</span> NRSROs</h3>
+<div id="outline-container-org1ab5fbc" class="outline-3">
+<h3 id="org1ab5fbc"><span class="section-number-3">1.1.</span> NRSROs</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 When a bond is going to be sold to the public (as opposed to a private placement) its credit risk must be rated by a Nationally Recognizes Statistical Rating Organization.  These are informally known as <i>credit ratings agencies</i>.  Note, NRSROs <b><b>only</b></b> evaluate the bond's credit risk, and not its interest rate or liquidity risk.  Different NRSROs have different rating scales, however generally they range from something like AAA to D. 
@@ -115,29 +119,59 @@ Despite a lackluster track record, credit ratings are meaningful because many fu
 </div>
 </div>
 
-<div id="outline-container-org9f79d43" class="outline-2">
-<h2 id="org9f79d43"><span class="section-number-2">2.</span> Tax Status</h2>
+<div id="outline-container-org718a85c" class="outline-2">
+<h2 id="org718a85c"><span class="section-number-2">2.</span> Tax Status</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Investors care about after-tax and <b><b>not</b></b> before-tax yield&#x2014;there is no utility found in paying taxes.  Therefore when investors compare debt investments, they only compare the after-tax yield, which may be calcualted as:
 </p>
 
 <p>
-\[y_{at} = t_{bt} (1 - \tau)\]
+\[y_{at} = y_{bt} (1 - \tau)\]
 </p>
 
 <p>
-where 
+where:
+</p>
+
+<ul class="org-ul">
+<li>\(y_{at}\) is the after-tax yield</li>
+<li>\(y_{bt}\) is the before-tax yield</li>
+<li>\(\tau\) is the investor's marginal (total) tax rate.</li>
+</ul>
+
+<p>
+So, for example, if a bond has a yield of 10%, and your tax rate is 30%, the after tax yield is \(0.10(1-0.03) = 0.07\) or 7%.
+</p>
+
+<p>
+You can also <i>gross-up</i> an after tax yield to determine the before tax yield you would have to offer investors such that your bond is attractive.
+</p>
+
+<p>
+\[y_{bt} = \frac{y_{at}}{(1 - \tau)}\]
 </p>
 </div>
+
+<div id="outline-container-org9017635" class="outline-3">
+<h3 id="org9017635"><span class="section-number-3">2.1.</span> Tax Rates of Various Bond Types</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+First, note when calculating your tax rate we include all relevant taxes&#x2014;local, state, and federal. Your tax rates can vary substantially because:
+</p>
+
+<ol class="org-ol">
+<li><a href="https://www.sec.gov/munied">Municipal bonds</a> interest <i>can be</i> exempt from local, state and federal taxes.</li>
+<li>Treasury bonds interest are exempt from state and local taxes.</li>
+<li>Corporate bond interest is usually always taxable.</li>
+</ol>
+</div>
+</div>
 </div>
 
 
-
-
-
-<div id="outline-container-orgfe78968" class="outline-2">
-<h2 id="orgfe78968"><span class="section-number-2">3.</span> Time to Maturity</h2>
+<div id="outline-container-orgf905092" class="outline-2">
+<h2 id="orgf905092"><span class="section-number-2">3.</span> Time to Maturity</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 <a href="https://financial-education.github.io/term_structure_interest_rates/">See this presentation for a detailed look at the term structure of interest rates.</a>
@@ -147,7 +181,7 @@ where
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Matt Brigida, Ph.D.</p>
-<p class="date">Created: 2024-01-17 Wed 16:46</p>
+<p class="date">Created: 2024-01-17 Wed 17:58</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
