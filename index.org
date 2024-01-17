@@ -59,7 +59,16 @@ First, note when calculating your tax rate we include all relevant taxes---local
 2.  Treasury bonds interest are exempt from state and local taxes.
 3.  Corporate bond interest is usually always taxable. 
 
+** Liquidity
+
+Less liquidity demands a higher yield.
+
+See LTCM /on/ vs /off-the-run/ bond trade [TODO: find a link or youtube video on the trade----or create one]
 
 ** Time to Maturity
 
 [[https://financial-education.github.io/term_structure_interest_rates/][See this presentation for a detailed look at the term structure of interest rates.]]
+
+
+** The Final Yield
+
