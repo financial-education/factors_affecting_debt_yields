@@ -61,7 +61,7 @@ First, note when calculating your tax rate we include all relevant taxes---local
 
 ** Liquidity
 
-Less liquidity demands a higher yield.
+Less liquidity demands a higher yield.  If there are higher transaction costs, and it is harder to sell the bond, you demand a higher yield.
 
 See LTCM /on/ vs /off-the-run/ bond trade [TODO: find a link or youtube video on the trade----or create one]
 
@@ -72,3 +72,12 @@ See LTCM /on/ vs /off-the-run/ bond trade [TODO: find a link or youtube video on
 
 ** The Final Yield
 
+To value a given bond[fn:1] we start with the rate on a treasury with the same maturity, and then adjust this yield for default risk, tax status, and liquidity.  For example, say we want to value a 10-year corporate bond, and the rate on a 10-year treasury note is 4%.
+
+We then start with 4%, and then increase the rate for default risk and tax status.  Remember a corporate bond may default and also incurs more taxes.  Lastly, we would increase the rate for lower liquidity in the corporate bond.  We may end up with a yield of something like 4.7% for the corporate bond.
+
+Note the adjustments are not always positive.  If it were a municipal bond, we may /lower/ the yield for the preferential tax treatment.
+
+* Footnotes
+
+[fn:1] We state the value of a bond by its rate and not its price.  [[https://financial-education.github.io/for_what_ytm_used/][To review why see this presentation.]] 
